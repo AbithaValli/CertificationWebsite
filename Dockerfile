@@ -2,7 +2,7 @@
 FROM bitnami/php-fpm:latest
 
 # Copy app's source code to the /app directory
-COPY /app
+COPY . /app
 
 # The application's directory will be the working directory
 WORKDIR /app
