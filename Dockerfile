@@ -6,3 +6,4 @@ COPY . /app
 
 # The application's directory will be the working directory
 WORKDIR /app
+ENV PORT 8080
